@@ -90,7 +90,7 @@ public class MathUtilsTests {
         assertEquals("Сторона не может быть отрицательной или нулевой", thrown.getMessage());
     }
 
-    @DisplayName("Тест на вычитание")
+    @DisplayName("Тест на сложение")
     @Tag("Math_tests")
     @ParameterizedTest
     @CsvSource ({
